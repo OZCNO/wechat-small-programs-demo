@@ -1,0 +1,49 @@
+page {
+  text-align: center;
+}
+
+.head {
+  font-size: 80rpx;
+  margin:50rpx auto 40rpx;
+  color: #e44;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.rank-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.th text, .list text {
+  line-height: 70rpx;
+  display: inline-block;
+  width: 160rpx;
+}
+
+.th .names,.list .name {
+  width: 200rpx;
+}
+
+.list .name {
+  overflow: hidden;
+  text-align: center;
+  /*省略号 */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+
+
+.list:nth-child(odd) {
+  background-color: rgba(255, 100,50 ,0.5);
+}
+
+.list:nth-child(even) {
+  background-color: rgba(255, 30,0,0.5);
+}

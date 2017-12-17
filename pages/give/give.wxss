@@ -1,0 +1,79 @@
+.tip {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  line-height: 56rpx;
+  /* background-color:#f9a; */
+  color: #f00;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  vertical-align: middle;
+  padding: 40rpx 50rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form label {
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  line-height: 100rpx;
+  padding: 0px 15px;
+  margin-bottom: 60rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-size: 35rpx;
+  border-radius: 10rpx;
+}
+
+form label span {
+  float: right;
+}
+
+form input {
+  position: absolute;
+  top: 28rpx;
+  right: 85rpx;
+  text-align: right;
+}
+
+form .msg {
+  right: 38rpx;
+  width: 480rpx;
+}
+
+.placeholder {
+  color: #bbb;
+  text-align: right;
+}
+
+.rule {
+  color: #aaa;
+  font-size: 30rpx;
+  float: left;
+  padding-left: 15px;
+  line-height: 60rpx;
+}
+
+.show_money {
+  font-size: 80rpx;
+  margin: 0 auto 60rpx;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.give_bt {
+  background-color: #f77;
+  width: 100%;
+  color: #fff;
+  font-size: 35rpx;
+  border-radius: 10rpx;
+}

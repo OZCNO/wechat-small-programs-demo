@@ -1,0 +1,8 @@
+<view class="container">
+  <image src="{{newUrl==''?'/image/girl.png':newUrl}}" class="head_image"></image>
+  <button bindtap="chooseimage" class="button get">获取照片</button>
+  <button bindtap="submit" class="button submit">马上拆红包</button>
+</view>
+<view class="tip-container">
+  <text class="tip">提示：笑得越开心，红包越大哦~</text>
+</view>

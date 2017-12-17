@@ -1,0 +1,10 @@
+<view wx:if="{{postList!=''}}" class="list-container">
+  <view class="sub-container" wx:for="{{postList}}" wx:key="unique" catchtap="open" data-post-id="{{index}}">
+    <image src='{{item.imgUrl}}' class="head-image"></image>
+    <view class="name-msg">
+      <text class="name">{{item.sender}}</text>
+      <text class="its-msg">{{item.wishes}}</text>
+    </view>
+     <text class="date">{{item.sendTime}}</text> 
+  </view>
+</view>

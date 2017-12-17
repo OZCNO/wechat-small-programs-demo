@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/snatch/open/show/show",
+    "pages/snatch/rank/rank",
+    "pages/snatch/open/open",
+    "pages/snatch/snatch",
+    "pages/give/give"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#e44",
+    "navigationBarTitleText": "开心红包",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle":"#fff",
+    "backgroundColor":"#e44",
+    "color":"#faa",
+    "selectedColor":"#ff0",
+    "list": [
+      {
+        "pagePath": "pages/give/give",
+        "text": "发红包",
+        "iconPath":"image/give.png",
+        "selectedIconPath":"image/give-hl.png"
+      },
+      {
+        "pagePath": "pages/snatch/snatch",
+        "text": "抢红包",
+        "iconPath": "image/snatch.png",
+        "selectedIconPath": "image/snatch-hl.png"
+      }
+    ]
+  }
+}

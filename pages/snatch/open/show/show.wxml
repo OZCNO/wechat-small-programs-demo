@@ -1,0 +1,34 @@
+<!-- <view class="bgc" style='background-image:url("/image/bg.png")'></view> -->
+<view class="bgc" style='background-image:url("http://picture-1255478844.cosgz.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20171214181313.png")'></view>
+
+
+<view class="top-left">
+  <view class="money">
+    <image src="/image/money.png"></image>
+    <text>原金额：{{res.money}}元</text>
+  </view>
+  <view class="wmoney">
+    <image src="/image/money.png"></image>
+    <text>最终金额：{{res.wmoney}}元</text>
+  </view>
+</view>
+
+<view class="layout">
+  <view class="age">年龄：</view>
+  <view class="age-value">{{res.age}}</view>
+  <view class="sex">性别：</view>
+  <view class="sex-value">{{res.sex}}</view>
+  <view class="happy">笑容值：</view>
+  <view class="happy-value">{{res.happy}}</view>
+  <view class="beauty">魅力值：</view>
+  <view class="beauty-value">{{res.beauty}}</view>
+
+  <view class="circle-out">
+    <view class="center-circle">
+      <text>{{res.sexAndAge_rank}}</text>
+      <text>{{res.beauty_rank}}</text>
+      <text>{{res.happy_rank}}</text>
+    </view>
+  </view>
+</view>
+<view catchtap='look_ranking' class="look">看看大家的手气</view>

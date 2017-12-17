@@ -1,0 +1,57 @@
+/*红包列表样式  */
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  padding:40rpx 50rpx;
+}
+
+.sub-container {
+  background-color: #fff;
+  width: 100%;
+  height: 120rpx;
+  margin: 15rpx 0;
+  padding:10rpx 15rpx;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.head-image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  position: absolute;
+  top:50%;
+  margin-top:-40rpx;
+}
+
+.name-msg{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:50%;
+  margin-top:-40rpx;
+  margin-left:90rpx;
+}
+.name {
+  font-size:30rpx;
+  margin-right:5px;
+  line-height: 50rpx;
+}
+
+.its-msg {
+  font-size: 22rpx;
+  color: #aaa;
+}
+
+.date{
+  position: absolute;
+  line-height:40rpx;
+  right:20rpx;
+  bottom: 18rpx;
+  color:#f55;
+  font-size:22rpx;
+}

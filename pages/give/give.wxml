@@ -1,0 +1,23 @@
+<text class="tip">{{tip}}</text>
+<form bindsubmit='formSubmit'>
+  <text class="rule">用户照片笑得越灿烂，获得金额越多</text>
+  <label>总金额
+    <input type="digit" name="t_money" placeholder='填写金额' placeholder-class='placeholder' class="t_money" value="{{money}}" bindblur="checkMoney"></input>
+    <span>元</span>
+  </label>
+
+  <label>红包个数
+    <input type="number" name="number" placeholder='填写个数' class="number" placeholder-class='placeholder' value="{{number}}" bindblur="checkNumber"></input>
+    <span>个</span>
+  </label>
+
+  <label>留言
+    <input type="text" name="msg" maxlength="14" placeholder='爱笑的人运气都不会太差' placeholder-class='placeholder' class="msg" value="{{msg}}"></input>
+  </label>
+
+
+  <view class="show_money" >{{showMoney}}</view>
+
+  <button form-type="submit" class="give_bt">塞钱进红包</button>
+
+</form>

@@ -1,0 +1,22 @@
+<view class="head">榜上有名</view>
+<view class="info-container">
+  <view>老板：{{sender}}</view>
+  <view>总金额：{{money}}</view>
+  <view>当前领取：{{grabbedSize}}/{{size}}</view>
+</view>
+<view class="rank-container">
+  <view class="th">
+    <text class="names">姓名</text>
+    <text>魅力值</text>
+    <text>开心值</text>
+    <text>金额</text>
+  </view>
+  <block wx:for="{{rank_list}}" wx:key="unique">
+    <view class="list">
+      <text class="name">{{item.nickname}}</text>
+      <text class="beaty">{{item.beauty}}</text>
+      <text class="happy">{{item.happy}}</text>
+      <text class="money">{{item.grabMoney}}</text>
+    </view>
+  </block>
+</view>
